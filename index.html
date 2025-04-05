@@ -15,7 +15,7 @@
             <input type="text" class="pass-box" disabled>
         </div>
         <input type="range" min="1" max="30" value="8" class="range">
-        
+
 
         <div class="row">
             <p>Password Length</p>
@@ -23,10 +23,21 @@
         </div>
 
         <div class="row-1">
-            <label for="lowercase"> Include lowercase letters (a-z) </label>
-            <input type="checkbox" name="lowercase" id="lowercase">   
+            <label for="lowercase"> Include Lowercase Letters (a-z) </label>
+            <input type="checkbox" name="lowercase" id="lowercase">
         </div>
-
+        <div class="row-1">
+            <label for="lowercase"> Include Uppercase Letters</label>
+            <input type="checkbox" name="uppercase" id="uppercase">
+        </div><div class="row-1">
+            <label for="mumbers"> Include Numbers (0-9) </label>
+            <input type="checkbox" name="numbers" id="numbers">
+        </div>
+        <div class="row-1">
+            <label for="symbols"> Include Symbols (@-*) </label>
+            <input type="checkbox" id="symbols">
+        </div>
+        <button type="button">Generate Password</button>
     </div>
 </body>
 
