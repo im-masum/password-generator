@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,9 +12,10 @@ body{
     height: 100vh;
     background: rgb(14, 44, 56);
     color: #ffffff;
-    
+
 }
-.container{
+
+.container {
     /* display: flex; */
     /* flex-direction: column; */
     align-items: center;
@@ -25,11 +27,13 @@ body{
     box-shadow: 5px 5px 10px .5px gray;
 
 }
-.container h2{
+
+.container h2 {
     font-size: 1.2rem;
     margin-block: 10px;
 }
-.pass-box{
+
+.pass-box {
     background: #ffffff;
     border: none;
     outline: none;
@@ -38,13 +42,25 @@ body{
     border-radius: 4px;
     font-size: 20px;
     margin-block: 8px;
-    }
-    .range{
-        width: 100%;
-    }
-    .row{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        padding-block: 10px;
-    }
+}
+
+.range {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-block: 10px;
+    font-size: 16px;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-size: 16px;
+}
+
