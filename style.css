@@ -33,6 +33,20 @@ body {
     margin-block: 10px;
 }
 
+.input-box{
+    position: relative;
+}
+
+.input-box span{
+    position: absolute;
+    color: rgb(58, 53, 53);
+    top: 18px;
+    right: 6px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
 .pass-box {
     background: #ffffff;
     border: none;
