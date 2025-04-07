@@ -12,12 +12,13 @@ body {
     height: 100vh;
     background: rgb(14, 44, 56);
     color: #ffffff;
+    flex-wrap: wrap;
 
 }
 
 .container {
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: .5px solid gray;
@@ -25,6 +26,7 @@ body {
     padding: 20px 30px;
     background: transparent;
     box-shadow: 5px 5px 10px .5px gray;
+    flex-wrap: wrap;
 
 }
 
@@ -34,17 +36,18 @@ body {
 }
 
 .input-box{
+    width: 100%;
     position: relative;
 }
 
 .input-box span{
     position: absolute;
     color: rgb(58, 53, 53);
-    top: 18px;
+    top: 16px;
     right: 6px;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 600;
     cursor: pointer;
-
 }
 
 .pass-box {
