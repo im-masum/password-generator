@@ -1,6 +1,6 @@
 let inputSlider = document.getElementById("inputSlider");
 let inputValue = document.getElementById("inputValue");
-let inputBox = document.getElementById("passBox");
+let passBox = document.getElementById("passBox");
 let lowercase = document.getElementById("lowercase");
 let uppercase = document.getElementById("uppercase");
 let numbers = document.getElementById("numbers");
@@ -46,7 +46,7 @@ function generatePassword() {
 }
 
 copyIcon.addEventListener("click", () => {
-  if(passBox.value != "" || passBox.value.length >=1){
+  if (passBox.value != "" || passBox.value.length >= 1) {
     navigator.clipboard.writeText(passBox.value);
     copyIcon.innerText = "check";
     copyIcon.title = "Password Copied";
@@ -54,6 +54,6 @@ copyIcon.addEventListener("click", () => {
     setTimeout(() => {
       copyIcon.innerHTML = "content_copy";
       copyIcon.title = "";
-    }, 3000);
+    }, 3000)
   }
 });
