@@ -10,11 +10,11 @@ let copyIcon = document.getElementById("copyIcon");
 
 // Showing input slider value
 sliderValue.textContent = inputSlider.value;
-inputSlider.addEventListener("input", () => {
+inputSlider.addEventListener('input', () => {
   sliderValue.textContent = inputSlider.value;
 });
 
-button.addEventListener("click", () => {
+button.addEventListener('click', () => {
   passBox.value = generatePassword();
 });
 
@@ -45,7 +45,7 @@ function generatePassword() {
   return genPassword;
 }
 
-copyIcon.addEventListener("click", () => {
+copyIcon.addEventListener('click', () => {
   if (passBox.value != "" || passBox.value.length >= 1) {
     navigator.clipboard.writeText(passBox.value);
     copyIcon.innerText = "check";
